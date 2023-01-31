@@ -29,7 +29,7 @@ body {
 }
 
 .header-container {
-  margin-top: 70px;
+  margin-top: 80px;
 }
 
 .text-title-color {
@@ -37,7 +37,7 @@ body {
 }
 
 .header-text {
-  margin: 0% -3%;
+  margin: 0% 0%;
   color: white;
   font-family: "Sora";
   font-weight: 1000;
@@ -46,10 +46,8 @@ body {
 }
 
 .sub-container {
-  letter-spacing: 0.7px;
-  margin-top: 22px;
-  margin-left: -5%;
-  margin-right: -5%;
+  letter-spacing: 0.2px;
+  margin-top: 20px;
 }
 
 .sub-text {
@@ -57,10 +55,13 @@ body {
   font-weight: 500;
   color: white;
   font-size: 19px;
+  margin-left: -2%;
+  margin-right: -2%;
   font-family: "Sora", sans-serif;
 }
 
 .video-container {
+  border: solid black 0.5px;
   margin-top: 20px;
 }
 
@@ -80,8 +81,8 @@ body {
   display: grid;
   justify-content: center;
   align-items: center;
-  margin-top: 280px;
-  margin-bottom: 80px;
+  margin-top: 260px;
+  margin-bottom: 110px;
 }
 
 .rodape {
@@ -116,14 +117,20 @@ body {
   .mainMain {
     width: 97%;
   }
+  .header {
+    margin: 0% 0%;
+  }
+  .header-container {
+    margin-top: 100px;
+  }
   .header-text {
     font-size: 25px;
     margin: 0% 0%;
   }
   .sub-text {
-    font-size: 14px;
-    margin: 0% 5%;
-    letter-spacing: -0.5px;
+    font-size: 13.5px;
+    margin: 0% 0%;
+    letter-spacing: 0.5px;
   }
   .container-video-description {
     margin: 0% auto;
@@ -147,6 +154,7 @@ body {
   }
   .rodape {
     font-size: 11px;
+    margin-top: 40px;
   }
 }
 
